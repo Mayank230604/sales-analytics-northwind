@@ -67,7 +67,7 @@ SQL Extraction → Excel EDA & Cleaning → Power BI Modeling → DAX KPIs → D
 
 ## 📸 Dashboard Preview
 
-![Dashboard](Images/dashboard.png)
+![Dashboard](Images/Dashboard.png)
 
 ---
 
