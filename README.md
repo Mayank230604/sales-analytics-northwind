@@ -1,44 +1,44 @@
 # 📊 NorthWind Traders Analytics
 
-A complete **end-to-end Data Analytics project** built on the Northwind Traders dataset, focusing on extracting actionable business insights using **SQL, Excel, and Power BI**.
+A complete end-to-end Data Analytics project built on the Northwind Traders dataset, focusing on extracting actionable business insights using SQL, Excel, and Power BI.
 
 ---
 
 ## 🚀 Project Overview
 
-This project analyzes sales, customers, products, and shipping data of a fictional company **Northwind Traders**, a widely used dataset for data analytics practice.
+This project analyzes sales, customers, products, and shipping data of a fictional company Northwind Traders.
 
 ### Goals:
-- Understand **business performance**
-- Identify **sales trends & patterns**
-- Discover **top-performing products & customers**
-- Generate **data-driven insights for decision-making**
+- Understand business performance
+- Identify sales trends & patterns
+- Discover top-performing products & customers
+- Generate data-driven insights
 
 ---
 
 ## 🎯 Objectives
 
-- Analyze **sales performance over time**
-- Identify **top & bottom products**
-- Discover **high-value customers**
-- Evaluate **shipping efficiency**
-- Build **interactive dashboards**
+- Analyze sales performance over time
+- Identify top & bottom products
+- Discover high-value customers
+- Evaluate shipping efficiency
+- Build interactive dashboards
 
 ---
 
-## 🧰 Tools & Technologies Used
+## 🧰 Tools Used
 
-- **SQL** – Data extraction & querying  
-- **Microsoft Excel** – Data cleaning & preprocessing  
-- **Power BI** – Dashboard creation & visualization  
-- **DAX** – Measures & KPIs  
-- **Data Modeling** – Star schema design  
+- SQL  
+- Excel  
+- Power BI  
+- DAX  
+- Data Modeling  
 
 ---
 
-## 📂 Dataset Information
+## 📂 Dataset
 
-The dataset includes:
+Includes:
 - Customers  
 - Orders  
 - Order Details  
@@ -46,58 +46,28 @@ The dataset includes:
 - Employees  
 - Shippers  
 
-It represents a **real-world-like transactional dataset** for a gourmet food business.
-
 ---
 
-## 🔄 Project Workflow
+## 🔄 Workflow
 
-### 1️⃣ Data Extraction (SQL)
-- Performed joins, aggregations, and filtering  
-- Extracted structured datasets  
-
-### 2️⃣ Data Cleaning (Excel)
-- Removed inconsistencies  
-- Handled missing values  
-- Standardized formats  
-
-### 3️⃣ Data Modeling (Power BI)
-- Built relationships between tables  
-- Designed a **star schema**  
-
-### 4️⃣ Data Analysis
-- Created KPIs:
-  - Total Revenue  
-  - Order Count  
-  - Average Order Value  
-
-- Analyzed:
-  - Sales trends  
-  - Customer contribution  
-  - Product performance  
-
-### 5️⃣ Data Visualization
-- Built interactive dashboards:
-  - Sales trends over time  
-  - Top customers & products  
-  - Category-wise performance  
-  - Shipping insights  
+1. Data Extraction (SQL)  
+2. Data Cleaning (Excel)  
+3. Data Modeling (Power BI)  
+4. Analysis (KPIs & trends)  
+5. Dashboard Visualization  
 
 ---
 
 ## 📊 Key Insights
 
-- 📈 Top-performing products drive majority of revenue  
-- 👥 A small segment of customers contributes significantly to sales  
-- 🌍 Regional trends highlight high-demand markets  
-- 🚚 Shipping delays impact customer satisfaction  
-- 💡 Insights support better business decision-making  
+- Top products generate most revenue  
+- Few customers contribute major sales  
+- Regional demand varies significantly  
+- Shipping delays affect satisfaction  
 
 ---
 
-## 📸 Dashboard Preview
-
-_Add your screenshots inside the `Images/` folder_
+## 📸 Dashboard
 
 ![Dashboard](Images/dashboard.png)
 
@@ -118,40 +88,39 @@ NorthWind_Traders_Analytics/
 
 ## ⚡ How to Use
 
-1. Clone the repository:
-
+Clone:
 git clone https://github.com/Mayank230604/NorthWind_Traders_Analytics.git
 
-2. Open:
-- SQL files → Run queries  
-- Excel files → Explore cleaned data  
-- Power BI file → View dashboards  
+Then:
+- Run SQL files  
+- Open Excel data  
+- Open Power BI dashboard  
 
 ---
 
 ## 📌 Business Value
 
-- Enables **data-driven decision-making**  
-- Improves **sales strategy**  
-- Optimizes **inventory & operations**  
-- Enhances **customer targeting**  
+- Better decision-making  
+- Improved sales strategy  
+- Optimized operations  
+- Stronger customer targeting  
 
 ---
 
-## 🧠 Skills Demonstrated
+## 🧠 Skills
 
-- Data Cleaning & Transformation  
-- Exploratory Data Analysis (EDA)  
+- Data Cleaning  
+- EDA  
 - Data Modeling  
-- Dashboard Design  
-- Business Insight Generation  
+- Dashboarding  
+- Business Analysis  
 
 ---
 
 ## 🙋‍♂️ About Me
 
-**Mayank Adeva**  
-Aspiring Data Analyst
+Mayank Adeva  
+Aspiring Data Analyst  
 
-- 💼 Open to Data Analyst roles  
-- 📊 Skilled in SQL, Power BI, Excel  
+- Skilled in SQL, Power BI, Excel  
+- Open to opportunities  
