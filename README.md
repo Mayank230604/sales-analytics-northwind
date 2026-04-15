@@ -75,6 +75,7 @@ Includes:
 
 ## 📁 Repository Structure
 
+```
 NorthWind_Traders_Analytics/
 │
 ├── Data/
@@ -83,6 +84,7 @@ NorthWind_Traders_Analytics/
 ├── PowerBI/
 ├── Images/
 └── README.md
+```
 
 ---
 
