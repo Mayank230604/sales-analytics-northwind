@@ -67,7 +67,17 @@ SQL Extraction → Excel EDA & Cleaning → Power BI Modeling → DAX KPIs → D
 
 ## 📸 Dashboard Preview
 
-![Dashboard](Images/dashboard.png)
+### Overview
+![Introduction](Images/01_introduction.png)
+
+### Customers Analysis
+![Customers](Images/03_customers_analysis.png)
+
+### Product Analysis
+![Products](Images/05_product_analysis.png)
+
+### Shipper Analysis
+![Shippers](Images/06_shipper_analysis.png)
 
 ---
 
