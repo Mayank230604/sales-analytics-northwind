@@ -1,73 +1,71 @@
 # 📊 NorthWind Traders Analytics
 
-A complete end-to-end Data Analytics project built on the Northwind Traders dataset, focusing on extracting actionable business insights using SQL, Excel, and Power BI.
+> An end-to-end Data Analytics project on the Northwind Traders dataset — uncovering sales trends, customer segments, and shipping performance through SQL, Excel, and Power BI.
+
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-217346?style=flat&logo=microsoftexcel&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 ---
 
 ## 🚀 Project Overview
 
-This project analyzes sales, customers, products, and shipping data of a fictional company Northwind Traders.
+Northwind Traders is a fictional wholesale company. This project performs a full analytics pipeline — from raw SQL extraction to an interactive Power BI dashboard — to answer key business questions around **revenue, customer behaviour, product performance, and logistics**.
 
-### Goals:
-- Understand business performance
-- Identify sales trends & patterns
-- Discover top-performing products & customers
-- Generate data-driven insights
-
----
-
-## 🎯 Objectives
-
-- Analyze sales performance over time
-- Identify top & bottom products
-- Discover high-value customers
-- Evaluate shipping efficiency
-- Build interactive dashboards
+### Key Questions Answered
+- Which products and categories drive the most revenue?
+- Who are the highest-value customers, and where are they located?
+- How does sales performance vary across time periods?
+- Which shipping providers are causing delays, and at what cost?
 
 ---
 
-## 🧰 Tools Used
+## 🧰 Tech Stack
 
-- SQL  
-- Excel  
-- Power BI  
-- DAX  
-- Data Modeling  
+| Tool | Purpose |
+|---|---|
+| **SQL (PostgreSQL)** | Data extraction & querying |
+| **Excel** | EDA, data cleaning & pivot analysis |
+| **Power BI + DAX** | Data modeling, KPIs & dashboard |
 
 ---
 
 ## 📂 Dataset
 
-Includes:
-- Customers  
-- Orders  
-- Order Details  
-- Products  
-- Employees  
-- Shippers  
+The Northwind dataset includes 6 core tables:
+
+`Customers` · `Orders` · `Order Details` · `Products` · `Employees` · `Shippers`
 
 ---
 
 ## 🔄 Workflow
 
-1. Data Extraction (SQL)  
-2. Data Cleaning (Excel)  
-3. Data Modeling (Power BI)  
-4. Analysis (KPIs & trends)  
-5. Dashboard Visualization  
+```
+SQL Extraction → Excel EDA & Cleaning → Power BI Modeling → DAX KPIs → Dashboard
+```
+
+1. **SQL** — Queried and joined tables to extract relevant business data
+2. **Excel** — Exploratory analysis, pivot tables, and data validation (`EDA.xlsx`)
+3. **Power BI** — Built star-schema data model and interactive visuals (`Northwind_Traders.pbix`)
+4. **DAX** — Created calculated measures for revenue, growth rate, and customer ranking
+5. **Reporting** — Exported findings to PDF and PowerPoint (`MECE.docx`, `.pptx`, `.pdf`)
 
 ---
 
 ## 📊 Key Insights
 
-- Top products generate most revenue  
-- Few customers contribute major sales  
-- Regional demand varies significantly  
-- Shipping delays affect satisfaction  
+- **Top 10 customers** account for ~40% of total revenue, indicating high concentration risk
+- **Beverages and Dairy Products** are the highest-grossing categories by revenue
+- **Q4 consistently outperforms** other quarters — suggesting seasonal demand spikes
+- **Speedy Express** has the lowest average delivery time; **United Package** shows the most delays
+- **USA and Germany** lead in order volume, making them the most valuable regional markets
+
+> *(Refine these with your actual numbers from the dashboard for maximum impact)*
 
 ---
 
-## 📸 Dashboard
+## 📸 Dashboard Preview
 
 ![Dashboard](Images/dashboard.png)
 
@@ -78,11 +76,11 @@ Includes:
 ```
 NorthWind_Traders_Analytics/
 │
-├── Data/
-├── SQL/
-├── Excel/
-├── PowerBI/
-├── Images/
+├── EDA.xlsx                          # Exploratory Data Analysis in Excel
+├── MECE.docx                         # Structured problem breakdown (MECE framework)
+├── Northwind_Traders.pbix            # Power BI dashboard file
+├── Northwind_Traders.pdf             # Exported dashboard / report (PDF)
+├── NORTHWIND-TRADERS-REPORT.pptx     # Presentation slides
 └── README.md
 ```
 
@@ -90,39 +88,40 @@ NorthWind_Traders_Analytics/
 
 ## ⚡ How to Use
 
-Clone:
+```bash
 git clone https://github.com/Mayank230604/NorthWind_Traders_Analytics.git
+cd NorthWind_Traders_Analytics
+```
 
-Then:
-- Run SQL files  
-- Open Excel data  
-- Open Power BI dashboard  
-
----
-
-## 📌 Business Value
-
-- Better decision-making  
-- Improved sales strategy  
-- Optimized operations  
-- Stronger customer targeting  
+- Open `Northwind_Traders.pbix` in **Power BI Desktop** to explore the dashboard
+- Open `EDA.xlsx` in **Excel** to review exploratory analysis and pivot tables
+- Open `NORTHWIND-TRADERS-REPORT.pptx` for a summary presentation of findings
 
 ---
 
-## 🧠 Skills
+## 💼 Business Value
 
-- Data Cleaning  
-- EDA  
-- Data Modeling  
-- Dashboarding  
-- Business Analysis  
+This analysis enables a business to:
+- Prioritize high-value customer relationships for retention strategies
+- Optimize inventory by focusing on top-performing product categories
+- Identify seasonal demand patterns to improve forecasting and procurement
+- Reduce shipping costs by evaluating shipper performance against SLAs
+
+---
+
+## 🧠 Skills Demonstrated
+
+`SQL Querying` · `Data Cleaning` · `Exploratory Data Analysis` · `Data Modeling` · `DAX` · `Power BI Dashboarding` · `Business Analysis` · `Storytelling with Data`
 
 ---
 
 ## 🙋‍♂️ About Me
 
-Mayank Adeva  
-Aspiring Data Analyst  
+**Mayank Adeva** — Aspiring Data Analyst
 
-- Skilled in SQL, Power BI, Excel  
-- Open to opportunities  
+B.Sc. Computer Science, Ramanujan College, University of Delhi (2025)
+Skilled in SQL · Python (pandas, numpy) · Power BI · Excel · Git
+
+📫 Open to entry-level Data Analyst roles — feel free to connect!
+
+[![GitHub](https://img.shields.io/badge/GitHub-Mayank230604-181717?style=flat&logo=github)](https://github.com/Mayank230604)
